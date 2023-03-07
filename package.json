@@ -26,9 +26,11 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-leaflet": "^4.2.0",
+    "react-multi-carousel": "^2.8.2",
     "react-slideshow-image": "^4.2.1",
     "typescript": "4.9.4",
-    "typewriter-effect": "^2.19.0"
+    "typewriter-effect": "^2.19.0",
+    "uninstall": "^0.0.0"
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.1",

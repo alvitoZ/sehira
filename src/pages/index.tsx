@@ -5,6 +5,7 @@ import Section from "@/components/molecules/Section";
 import ImageHome from "@/components/molecules/ImageHome";
 import ProgramList from "@/components/molecules/ProgramList";
 import DarkModeToggle from "@/components/molecules/DarkModeToggle";
+import GaleriKami from "@/components/molecules/GaleriKami";
 
 const index = () => {
   return (
@@ -14,10 +15,10 @@ const index = () => {
         description="Description of Create Next Page by Faizmul"
       />
 
-      <DarkModeToggle />
       <ImageHome />
-      <Section />
-      <ProgramList />
+      {/* <ProgramList /> */}
+
+      <GaleriKami />
     </BlankTemplate>
   );
 };
